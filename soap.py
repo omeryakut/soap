@@ -12,7 +12,8 @@ client = zeep.Client(wsdl=wsdl + "/egm_test.wsdl", plugins=[history], wsse=Usern
         service.PlakaDanAracBul(inputDict)
 
 
-
+https://stackoverflow.com/questions/49783252/how-to-change-endpoint-address-in-soap-requests-with-zeep
+https://stackoverflow.com/questions/42236251/change-service-url-in-python-zeep        
 
 
 
